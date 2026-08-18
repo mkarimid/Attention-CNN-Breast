@@ -41,16 +41,18 @@ The network consists of:
 3. Global Average Pooling + two Dense layers (256, 128) with L2 regularization
 4. Dropout (0.4) and a sigmoid output for binary classification
 
-## 📦 Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/YOUR-USERNAME/Attention-CNN-Breast.git
-cd Attention-CNN-Breast
+## Data Access
 
-# Create a virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# Dataset Structure
 
-# Install dependencies
-pip install -r requirements.txt
+## Kashani Dataset
+This folder contains the independent clinical dataset used for cross-dataset evaluation.
+
+- `benign/`: Contains 32 benign breast cancer histopathology images.
+- `malignant/`: Contains 122 malignant breast cancer histopathology images.
+
+**Note:** Images are anonymized. If you use this dataset for research, please cite our paper
+
+this is the link of the paper:
+https://drive.google.com/drive/folders/1MJhnZjGFA8vFbEcC0LRChlED718QbnUq?usp=sharing
