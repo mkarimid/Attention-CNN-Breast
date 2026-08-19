@@ -55,4 +55,4 @@ This folder contains the independent clinical dataset used for cross-dataset eva
 **Note:** Images are anonymized. If you use this dataset for research, please cite our paper
 
 this is the link of the dataset:
-https://drive.google.com/drive/folders/1MJhnZjGFA8vFbEcC0LRChlED718QbnUq?usp=sharing
+https://github.com/mkarimid/Kashani-Dataset/
